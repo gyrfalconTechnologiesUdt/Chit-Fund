@@ -1,0 +1,13 @@
+body,html{margin: 0; padding: 0;}
+.CF-dashboard-container{width: 360px; margin: 0 auto;}
+.bannerimg{width: 400px;}
+.section1{height: 600px; width: 400px; background: linear-gradient(#1968ac , #09b19b);}
+.profileimg{width: 108px; margin-left: 137px;}
+.text{text-align: center; color: #fff; font-size: 2em;}
+.middle-container{width: 100%;}
+.left{width: 50%; float: left; color: #fff; font-size: 1.5em; margin-top: 50px;}
+.right{width: 50%; float: left; color: #fff; font-size: 1.5em; margin-top: 50px;}
+.leftsidetxt{text-align: center;}
+.lftext{margin-left: 25px;}
+.rightsidetxt{text-align: center;}
+.rttext{margin-left: 50px;}
