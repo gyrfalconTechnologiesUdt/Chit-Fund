@@ -1,13 +1,22 @@
 body,html{margin: 0; padding: 0;}
 .CF-dashboard-container{width: 360px; margin: 0 auto;}
-.bannerimg{width: 400px;}
-.section1{height: 600px; width: 400px; background: linear-gradient(#1968ac , #09b19b);}
-.profileimg{width: 108px; margin-left: 137px;}
-.text{text-align: center; color: #fff; font-size: 2em;}
+.section{width: 100%; text-align: center; margin-bottom: 0px;}
+.bannerimg{max-width: 100%; opacity: 0.4;}
+.section1{height: 600px; width: 100%; background: linear-gradient(#1968ac , #09b19b);}
+.profile{border: 2px solid #fff; height: 100px; width: 100px; margin: 0 auto; border-radius: 50px; position: absolute; top: 86px; margin-left: 120px;}
+.profileimg{max-width: 100%; border-radius: 50px;}
+.text{text-align: center; color: #fff; font-size: 2em; padding-top: 60px;}
 .middle-container{width: 100%;}
 .left{width: 50%; float: left; color: #fff; font-size: 1.5em; margin-top: 50px;}
 .right{width: 50%; float: left; color: #fff; font-size: 1.5em; margin-top: 50px;}
 .leftsidetxt{text-align: center;}
-.lftext{margin-left: 25px;}
+.lftext{margin-left: 12px;}
 .rightsidetxt{text-align: center;}
 .rttext{margin-left: 50px;}
+.bottom-container{width: 100%;}
+.img1{width: 22%; height: 80px; margin-top: 50px; border: 2px solid #fff; margin-left: 3px; opacity: 0.7;}
+.footer{margin-top: 230px;}
+.createchit ,.chitlist{width: 50%; float: left; height: 30px; text-align: center; line-height: 2.2em; cursor: pointer; color: #fff; background: #0d9797;}
+
+
+
