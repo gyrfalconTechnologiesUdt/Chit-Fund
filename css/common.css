@@ -1,4 +1,5 @@
 body,html{margin: 0; padding: 0;}
+/* Dashboard page start */
 .CF-dashboard-container{width: 360px; margin: 0 auto;}
 .section{width: 100%; text-align: center; margin-bottom: 0px;}
 .bannerimg{max-width: 100%; opacity: 0.4;}
@@ -17,6 +18,48 @@ body,html{margin: 0; padding: 0;}
 .img1{width: 22%; height: 80px; margin-top: 50px; border: 2px solid #fff; margin-left: 3px; opacity: 0.7;}
 .footer{margin-top: 230px;}
 .createchit ,.chitlist{width: 50%; float: left; height: 30px; text-align: center; line-height: 2.2em; cursor: pointer; color: #fff; background: #0d9797;}
+/* Dashboard page end */
 
+/* list of chit1 page start */
+.CF-listofchit-container{width: 360px; margin: 0 auto; }
+.section2{background: linear-gradient(#1968ac , #09b19b); height: 700px;}
+.crtebutton{margin-top: 53px; text-align: center;background-color: #0d9797; height: 35px; padding: 5px; color: #fff; cursor: pointer;  }
+.sidenav {height: 100%; width: 0; position: fixed; z-index: 1; top: 0; background: linear-gradient(#1968ac , #09b19b); overflow-x: hidden; transition: 0.7s; border: 1px solid;}
+.sidenav li{padding: 8px 8px 8px 20px; text-decoration: none; color: #000; display: block; transition: 0.3s;}
+.sidenav li:hover {background-color: #1968ac; color: #fff;}
+.sidenav .closebtn {position: absolute; top: 0; right: 25px; font-size: 40px; margin-left: 50px; cursor: pointer; color: #fff;}
+.headerbox{ color: #fff; padding: 20px; cursor: pointer;}
+.list{margin-top: 20px; cursor: pointer;}
+.navstyle{font-size:30px;cursor:pointer; margin-left: 15px; top: 0; color: #175082}
+.container1{height: 260px; border: 1px solid; margin-top: 20px; width: 95%; margin-left: 8px;}
+.leftInfo{    width: 50%;  float: left; padding-left: 10px;    padding-top: 10px; }
+.rightInfo{padding-left: 10px;    padding-top: 10px; }
+.lble-colon{float: right; font-weight: bold;}
+.addmember{  text-align: center; width: 125px; height: 40px; background: #001e4d; line-height: 2.5em; color: #fff; border: none; margin-left: 9px; float: left; margin-top: 15px; cursor: pointer;}
+.delete{text-align: center; width: 125px; height: 40px; background: #001e4d; line-height: 2.5em; color: #fff; border: none; float: right; margin-right:49px; margin-top: 15px; cursor: pointer;}
+.container2{height: 35px; background-color: #001e4d; margin-top: 30px; border: 1px solid; width: 95%; margin-left: 8px; }
+.name{float: left; color: #fff; margin-left: 10px; text-align: center; padding: 7px;}
+.phno{float: left; color: #fff; margin-left: 55px; text-align: center; padding: 7px;}
+.edit{color: #fff; float: right; text-align: center; padding: 7px; margin-right: 10px;}
+.container3{border: 1px solid; width: 95%; margin-left: 8px; height: 74px;}
+.bottomline{border-bottom: 1px solid ;}
+.row{padding: 10px;}
+.text1 , .text2{float: left; margin-left: 12px;}
+.fa{margin-left: 116px;}
+/* list of chit1  page end */
 
-
+/* list of chit2  page start */
+.heading{text-align: center; color: #fff;}
+.container5{height: 200px; border: 1px solid; margin-top: 20px; width: 95%; margin-left: 8px;}
+.amt{float: left; color: #fff; margin-left: 30px; text-align: center; padding: 7px;}
+.status{float: left; color: #fff; margin-left: 30px; text-align: center; padding: 7px;}
+.container6{border: 1px solid; width: 95%; margin-left: 8px; height: 132px;}
+.row1{padding: 10px;}
+.mon{float: left;}
+.amnt{float: left; margin-left: 77px;}
+.sts{float: left; margin-left: 62px; color: #008000;}
+.sts1{float: left; margin-left: 62px; color: #bf0707;}
+.sms{margin-left: 65px;}
+.sms1{margin-left: 43px;}
+.sms2{margin-left: 61px;}
+/* list of chit2  page end */
