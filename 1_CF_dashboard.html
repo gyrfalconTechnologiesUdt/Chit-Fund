@@ -30,31 +30,37 @@
 			</div>
 		</div>
 		<div class="bottom-container">
-			<img src="img/untitled.png" class="img1">
-			<img src="img/chit-fund .jpg" class="img1">
-			<img src="img/download.jpg" class="img1">
-			<img src="img/chit.jpg" class="img1">
+		  <img class="mySlides" src="img/untitled.png">
+		  <img class="mySlides" src="img/download.jpg">
+		  <img class="mySlides" src="img/chit-fund .jpg">
+		  <img class="mySlides" src="img/chit.jpg">
+		  <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
 		</div>
-		
-		
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+				 x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+		</script>		
 		<div class="footer">
 			<div class="createchit">CREATE CHIT</div>
 			<div class="chitlist">CHIT LIST</div>
 		</div>
 		</div>
-		
-	</div>
-		
 	</div>
 	</body>
-</html>
+	</html>

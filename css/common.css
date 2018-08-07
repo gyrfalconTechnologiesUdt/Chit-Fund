@@ -15,8 +15,16 @@ body,html{margin: 0; padding: 0;}
 .rightsidetxt{text-align: center;}
 .rttext{margin-left: 50px;}
 .bottom-container{width: 100%;}
-.img1{width: 22%; height: 80px; margin-top: 50px; border: 2px solid #fff; margin-left: 3px; opacity: 0.7;}
-.footer{margin-top: 230px;}
+.mySlides{width: 22%; height: 80px; margin-top: 50px; border: 2px solid #fff; margin-left: 3px; opacity: 0.7;}
+.display-left{position: absolute; margin-left: 5px; top: 58%; transform: translate(0%,-50%);}
+.display-right {position: absolute; top: 58%; margin-left: 67px; transform: translate(0%,-50%);}
+.button{border: none;
+    
+    color: inherit;
+    background-color: #fff;
+    cursor: pointer;
+}
+.footer{margin-top: 282px;}
 .createchit ,.chitlist{width: 50%; float: left; height: 30px; text-align: center; line-height: 2.2em; cursor: pointer; color: #fff; background: #0d9797;}
 /* Dashboard page end */
 
