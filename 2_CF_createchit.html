@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Create Chit</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/chits.css">
+        <script language="JavaScript" type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/script.js"></script>
+
+   </head>
+<body>
+<div class="cf-createchit">
+    <div class="header">
+	     <div id="mySidenav" class="sidenav">
+			<img src="img/profileimg.jpg" class="headerbox">
+			<div class="proname">John Abraham</div>
+			<div class="closebtn" onclick="closeNav()">&times;</div>
+			<div class ="list">
+				  <li><div id="dashboardId">Home</div></li>
+				  <li><div id="chitId">Create Chit</div></li>
+				  <li><div id="chitlistId">Chit List</div></li>
+		    </div>
+	    </div>
+		<span class="navstyle" onclick="openNav()">&#9776; </span>
+		<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "350px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	
+	</script>
+	   <div class="proimg">
+		<img src="img/logo.jpg" class="img">
+	   </div>
+	   <div class="text">John Abraham</div>
+	</div>
+	<div class="sec1">
+	<form class="createchit">
+	   <div class="name" id="nameId">
+	   <label for="form1" class="active" id="nameLbl">Name</label>
+	   <input type="text" class="b-Line" id="txtName">
+	   </div>
+	   <div class="name" id="mobileId">
+	   <label for="form1" class="active" id="mobileLbl">Mobile No</label>
+	   <input type="text" class="b-Line" id="txtMobile">
+	   </div>
+	   <div class="name" id="emailId">
+	   <label for="form1" class="active" id="emailLbl">Email Id</label>
+	   <input type="text" class="b-Line" id="txtemail">
+	   </div>
+	   <div class="name" id="addressId">
+	   <label for="form1" class="active" id="addressLbl">Address</label>
+	   <input type="text" class="b-Line" id="txtaddress">
+	   </div>
+	   <div class="name" id="totamtId">
+	   <label for="form1" class="active" id="totamtLbl">Total Amount</label>
+	   <input type="text" class="b-Line" id="txttotamt">
+	   </div>
+	    <div class="name" id="interestId">
+	   <label for="form1" class="active" id="interestLbl">Interest</label>
+	   <input type="text" class="b-Line" id="txtinterest">
+	   </div>
+	    <div class="name" id="montsId">
+	   <label for="form1" class="active" id="monthsLbl">No of Months </label>
+	   <input type="text" class="b-Line" id="txtmonths">
+	   </div>
+	    <div class="name" id="membersId">
+	   <label for="form1" class="active" id="membersLbl">No of Members</label>
+	   <input type="text" class="b-Line" id="txtmembers">
+	   </div>
+	    <div class="name" id="aadhornoId">
+	   <label for="form1" class="active" id="aadhornoLbl">Aadhar Number</label>
+	   <input type="text" class="b-Line" id="txtaadhorno">
+	   </div>
+	    <div class="name" id="pannoId">
+	   <label for="form1" class="active" id="pannoLbl">Pan Number</label>
+	   <input type="text" class="b-Line" id="txtpanno">
+	   </div>
+	    <div class="name" id="fdateId">
+	   <label for="form1" class="active" id="fdateLbl">From Date</label>
+	   <input type="text" class="b-Line" id="txtfdate">
+	   </div>
+	    <div class="name" id="tdateId">
+	   <label for="form1" class="active" id="tdateLbl">To Date</label>
+	   <input type="text" class="b-Line" id="txttdate">
+	   </div>
+	    <div class="name" id="totvalueId">
+	   <label for="form1" class="active" id="totvalueLbl">Total Value</label>
+	   <input type="text" class="b-Line" id="txttotvalue">
+	   </div>
+	   <div class="crtebutton" id="creatClDashBd">CREATE CHIT</div>	
+	 </form>
+     </div>	
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

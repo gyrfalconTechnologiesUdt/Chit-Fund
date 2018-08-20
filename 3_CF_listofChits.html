@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>List of Chits</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/chits.css">
+        <script language="JavaScript" type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/script.js"></script>
+
+   </head>
+<body>
+<div class="cf-listofchit">
+     <div class="section1">
+	      <div class="text1">List of Chits</div>
+		  <div id="mySidenav" class="sidenav">
+			<div class="headerbox" id="registerId">List of Chits</div>
+			<div class="closebtn" onclick="closeNav()">&times;</div>
+			<div class ="list">
+				  <li><div id="dashboardId">Home</div></li>
+				  <li><div id="chitId">Create Chit</div></li>
+				  <li><div id="chitlistId">Chits List</div></li>
+		    </div>
+	    </div>
+		<span class="navstyle" onclick="openNav()">&#9776; </span>
+		<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "350px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	  </script>
+	  
+	     <div class="year">Year:</div>
+		  <span class="custom-dropdown">
+			<select>
+				<option>2030</option>
+				<option>2029</option>  
+				<option>2028</option>
+				<option>2027</option>
+				<option>2026</option>
+				<option>2025</option>
+				<option>2024</option>
+				<option>2023</option>
+				<option>2022</option>
+				<option>2021</option>
+				<option>2020</option>
+				<option>2019</option>
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+				<option>2014</option>
+				<option>2013</option>
+				<option>2012</option>
+				<option>2011</option>
+				<option>2010</option>
+				<option>2009</option>
+				<option>2008</option>
+				<option>2007</option>
+				<option>2006</option>
+				<option>2005</option>
+				<option>2004</option>
+				<option>2003</option>
+				<option>2002</option>
+				<option>2001</option>
+				<option>2000</option>
+			</select>
+		</span>
+		
+ 	<div class="table">
+	 <div class="p">Name</div>                    
+	 <div class="p1">From</div>                            
+	 <div class="p2">Amount</div>
+	 </div>
+	 <div class="table2">
+	   <div class ="row1" id="rowId">
+		   <div class="p3">Chit-1</div>
+		   <div class="p4">July-18</div>
+		   <div class="p5">100000</div>
+		   <div class="clearfix"></div>
+		</div>
+		
+		<div class="line"></div>
+		
+		<div class ="row">
+		   <div class="p3">Chit-2</div>
+		   <div class="p4">July-18</div>
+		   <div class="p5">50000</div>
+		    <div class="clearfix"></div>
+		</div>
+		<div class="line"></div>
+		<div class ="row1">
+		   <div class="p3">Chit-1</div>
+		   <div class="p4">Aug-23</div>
+		   <div class="p5">100000</div>
+		</div>
+		<div class="line"></div>
+		
+		<div class ="row">
+		   <div class="p3">Chit-2</div>
+		   <div class="p4">July-18</div>
+		   <div class="p5">50000</div>
+		</div>
+	 
+	 </div>
+
+  
+
+
+</div>	  
+</div>	  
+	
+
+
+
+	</body>
+	</html>

@@ -1,0 +1,71 @@
+body,html{margin: 0; padding: 0; font-family: sans-serif;}
+
+/* create chit,Add Member, Edit page start*/
+.cf-createchit{width: 360px; margin:0 auto;}
+.header{background-color: #7e1d70; height:130px;}
+.proimg{width: 100px; height: 99px; border: 2px solid #fff; margin: 0 auto; border-radius: 50px;}
+.img{ height: 95px; max-width: 100%; border-radius: 50px;}	  
+.text{text-align: center;color: white; font-size: 1.2em;}
+.sec1{background: linear-gradient(#1968ac , #09b19b); padding: 15px 15px; }
+.name{position: relative; margin-top: 30px;}
+.nameLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.name label{ color: #fff   ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none; } 
+.name input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid #bcbcbc  ;	}
+.b-Line{display: block; width: 100%; line-height: 1.0em; color: #fff; border-bottom: 1px solid #fff ;}}
+input:focus{border-bottom: 1px solid #fff  !important; font-size: 0.8em !important;}
+input:focus-out{border-bottom: 1px solid #fff !important; font-size: 0.8em !important;}
+.emailLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.mobileLbl{top: -15px !important; color: #bcbcbc  !important; font-size: 0.80em !important; }
+.addressLbl{top: -15px !important; color: #bcbcbc  !important; font-size: 0.80em !important; }
+.totamtLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.interestLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.monthsLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.membersLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.aadhornoLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.pannoLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.fdateLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.tdateLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.totvalueLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.crtebutton{margin-top: 53px; text-align: center;background-color: #0d9797; height: 35px; padding: 5px; color: #fff; cursor: pointer;  }
+.sidenav {height: 100%; width: 0; position: fixed; z-index: 1; top: 0; background: linear-gradient(#1968ac , #09b19b); overflow-x: hidden; transition: 0.7s;}
+.sidenav li{text-decoration: none; color: #fff; display: block; transition: 0.3s;}
+.headerbox{color: #fff; margin-left: 133px; margin-top: 10px; cursor: pointer; height: 80px; border-radius: 35px;}
+.proname{text-align: center; color: #fff;}
+.sidenav .closebtn {position: absolute; top: 0; right: 25px; font-size: 40px; margin-left: 50px; cursor: pointer; color: #fff;}
+.list{margin-top: 20px; cursor: pointer;}
+.navstyle{font-size:30px;cursor:pointer; margin-left: 15px; position: absolute; top: 0; color: #fff;}
+#dashboardId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px; width: 100%; }
+#chitId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px;  margin-top: 5px; width:100%;}
+#chitlistId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px;  margin-top: 5px; width: 100%; }
+.popupmsg{width: 24%; height: 250px; background-color: #fff; border: 1px solid #00000069; position: fixed; z-index: 999; left: 38%; right: 10%; top: 220px; text-align: center; box-shadow: 2px 2px 2px 2px #564a4a91;}
+.msg{text-align:center; padding-top: 95px;}
+.confirm{text-align: center; width: 70px; height: 40px; background: linear-gradient(#1968ac , #09b19b); line-height: 2.6em; color: #fff; border: none; margin: 0 auto; margin-top: 5px; cursor: pointer;}
+.close{padding: 10px;}
+/* create chit,Add Member, Edit page end*/
+
+/* list of chits page start*/
+.cf-listofchit {width: 360px; margin: 0px auto;}
+.section1 {height: 700px; background:linear-gradient(#1968ac , #09b19b);}
+.text1 {text-align: center; color: white; font-size: 1.5em; padding: 5px;}
+.year { font-size: 1.2em; color: white; margin-top: 20px; margin-left: 15px;}
+.table { width: 82%; height: 35px; margin-left: 31px; background-color: #001e4d; margin-top: 25px; border: 1px solid; margin-bottom: 0rem;}
+.p {color: white; float: left;  padding: 4px; width: 33.3%; }
+.p1 {color: white; float: left;  padding: 4px; width: 33.3%; }
+.p2 { color: white; float: right;  padding: 4px; width: 33.3%; }
+.table2 {height: 181px; width: 82%; margin-left: 31px; border: 1px solid;}
+.row { padding: 10px; background: #fff; width:100%; margin-right: 0px; margin-left: 0px; height: 44px; cursor: pointer; }
+.line {border-bottom: 1px solid;}
+.p3 {  float: left; width: 33.3%; }
+.p4 {  float: left; width: 33.3%; }
+.p5 { float: left;  width: 33.3%;}
+.row1{padding: 10px; background: #c3c3c3; width:100%; margin-right: 0px; margin-left: 0px; height: 44px; cursor: pointer;}
+.small {font-size: .7em;}
+.custom-dropdown {position: relative; display: inline-block; vertical-align: middle; margin: 12px; float: right; margin-top: -34px; margin-right: 180px;}
+.custom-dropdown select {background-color: #1abc9c; color: #fff; font-size: inherit; padding: .5em; padding-right: 3.5em;	border: 0; margin: 0; border-radius: 3px; text-indent: 0.01px; text-overflow: ''; -moz-appearance: none; -webkit-appearance:none; appearance: none;}
+.custom-dropdown::before,
+.custom-dropdown::after {content: ""; position: absolute; pointer-events: none;}
+.custom-dropdown::after {content: "\25BC"; height: 1em; font-size: .625em; line-height: 1; right: 1.2em; top: 50%; margin-top: -.5em;}
+.custom-dropdown::before {width: 2em; right: 0; top: 0; bottom: 0; border-radius: 0 3px 3px 0; background-color: rgba(0,0,0,.2);}
+/* list of chits page end*/
+
+
