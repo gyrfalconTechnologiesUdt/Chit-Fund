@@ -2,11 +2,12 @@
 <html>
 	<head>
 		<title>ChitFund</title>
-		<link type="text/css" rel="stylesheet" href="css/bootsrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
 		<link type="text/css" rel="stylesheet" href="css/common.css">
-        <script type="text/javascript" src= "js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
+		<link rel="stylesheet" type="text/css" href="slick/slick-1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-1.8.1/slick/slick-theme.css"/>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="slick/slick-1.8.1/slick/slick.min.js"></script>		
         <script type="text/javascript" src= "js/script.js"></script>
     </head>
     <body>
@@ -29,36 +30,36 @@
 				<div class="rttext">Chits Inprog</div>
 			</div>
 		</div>
-		<div class="bottom-container">
-		  <img class="mySlides" src="img/untitled.png">
-		  <img class="mySlides" src="img/download.jpg">
-		  <img class="mySlides" src="img/chit-fund .jpg">
-		  <img class="mySlides" src="img/chit.jpg">
-		  <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
-		  <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
+		<div class="image-carousel">
+			<div class="">
+			  <img class="img1" src="img/untitled.png">
+			</div>
+			<div class="">
+			  <img class="img1" src="img/download.jpg">
+			</div>
+			<div class="">
+			  <img class="img1" src="img/chit-fund .jpg">
+			</div>
+			<div class="">
+			  <img class="img1" src="img/chit.jpg">
+			</div>
+			<div class="">
+			  <img class="img1" src="img/untitled.png">
+			</div>
+			<div class="">
+			  <img class="img1" src="img/download.jpg">
+			</div>
+			<div class="">
+			  <img class="img1" src="img/chit-fund .jpg">
+			</div>
+			<div class="">
+			  <img class="img1" src="img/chit.jpg">
+			</div>
 		</div>
-		<script>
-			var slideIndex = 1;
-			showDivs(slideIndex);
-
-			function plusDivs(n) {
-			  showDivs(slideIndex += n);
-			}
-
-			function showDivs(n) {
-			  var i;
-			  var x = document.getElementsByClassName("mySlides");
-			  if (n > x.length) {slideIndex = 1}    
-			  if (n < 1) {slideIndex = x.length}
-			  for (i = 0; i < x.length; i++) {
-				 x[i].style.display = "none";  
-			  }
-			  x[slideIndex-1].style.display = "block";  
-			}
-		</script>		
+		
 		<div class="footer">
-			<div class="createchit">CREATE CHIT</div>
-			<div class="chitlist">CHIT LIST</div>
+			<div class="createchit" id="createId">CREATE CHIT</div>
+			<div class="chitlist" id="listId">CHIT LIST</div>
 		</div>
 		</div>
 	</div>
